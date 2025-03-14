@@ -1,0 +1,39 @@
+.voice-recorder {
+    display: flex;
+    align-items: center;
+  }
+  
+  .record-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .record-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .record-button.recording {
+    background-color: #ff6b6b;
+  }
+  
+  .record-button img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .processing-icon {
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
