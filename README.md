@@ -17,7 +17,7 @@ Ash AI is an AI-powered assistant designed to utilize the Gemini and Sarvam APIs
 ### Installation
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/AshAI.git
+    git clone https://github.com/AshC1ty/AshAI.git
     cd AshAI
     ```
 
